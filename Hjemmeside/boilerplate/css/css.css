@@ -1,0 +1,63 @@
+
+/* Google font(s) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/**
+ * Fonten bruges sådan:
+
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+*/
+
+/* Variabler */
+ :root {
+  /* Farvepalet: Italiens farver til pizzeria */
+   --beige: #f2f1dd;
+   --sort: #000000;
+   --groen: #204907;
+   --roed: #b50202;
+ }
+
+ /* Fonte */
+ body {
+  font-family: var(--sansSerif);
+  color: var(--tenebrae);
+ }
+
+/* farver */ 
+body{background-color: var(--beige);
+}
+
+/* layout */
+main{
+  display:flex;
+}
+
+/* class: når der er flere */
+.Billeder{
+  width: 220px; 
+  height: auto;
+}
+.footertext{
+  text-align: center;
+  background-color: var(--groen);
+  color: var(--beige);
+  .playfair-display-<uniquifier> 
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+/* id: når der er én */
+.venstre{
+  text-align: left;
+  }
+
+  .venstre img {
+    width: 250px;
+    height: auto;
+  }
